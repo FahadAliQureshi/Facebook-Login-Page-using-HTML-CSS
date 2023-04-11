@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    text-shadow: 1px 1px lightgray;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  display:flex;
+  justify-content: center;
+  background:#f2f2f2;
+  align-items: center;
+}
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:xx-large;
+  color: #3b5998;
+  padding: 10px;
+}
+.lgn{
+  padding: 13px;
+}
+.form-box{
+  box-shadow: 2px 2px lightgray;
+  border: 1px;
+
+  border-color: white;
+  padding: 20px;
+  background-color: white;
+}
+.fill{
+  padding: 10px;
+  margin: 3px;
+  border-radius: 10px;
+  border: 1px solid #343434;
+}
+.flex-container {
+  border: 2px;
+  border-color:aliceblue;
+  width: min-content;
+  padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    -ms-flex-align: center;
+    flex: auto;    
+    flex-direction: column;
+    font-style: oblique;
+    height: min-content;
+    align-self: center;
+}
+.box{
+  display: flex;
+  height: 100vh;
+  padding: 2px;
+}
+/*
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    align-self: center;
+    padding: 10px;
+    border: 1px solid rgb(184, 174, 174);
+    margin: 0;
+  }
+  */
+  .rowtext {
+    font: size 30px;
+    font-weight:bold;
+    color:#333;
+  }
+  .login-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    color: floralwhite;
+    font-size: 15px; 
+    width: 205px;
+    background-color: #3b5998;
+    padding: 5px;
+    border-color: #3b5998;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .pass-link{
+    padding: 5px;
+    text-decoration: none;
+    font-size: .85em;
+
+  }
